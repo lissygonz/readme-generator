@@ -1,7 +1,7 @@
 // packages required to do application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./src/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown')
 
 // Array of Questions to get started
 const questions = [
@@ -69,3 +69,11 @@ const questions = [
         message: 'Would you like to include your email?',
     },
 ];
+// Function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err)
+            throw err;
+        console.log('Success! Information transferred to the README!')
+    });
+};
