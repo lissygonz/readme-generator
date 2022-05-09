@@ -9,17 +9,17 @@
   - [Testing](#testing)
   - [Additional Info](#additional-info)
   ## Description:
-  Helps find the right carrots for horses
+  helps finds carrots to feed horses
   ## Installation:
-  through github
+  vs code
   ## Usage:
-  online
+  n/a
   ## License:
   MIT
   ## Contribution:
-  n/a
+  none
   ## Testing:
-  lol
+  n/a
   ## Additional Info:
   - Github: [lissygonz](https://github.com/lissygonz)
-  - Email: lol.com 
+  - Email: lisettegonzalez.co@gmail.com 
